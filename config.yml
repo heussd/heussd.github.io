@@ -1,0 +1,70 @@
+baseURL: "https://examplesite.com/"
+title: Dr. Timm Heuss
+paginate: 0
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+copyright: " "
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    DateFormat: "January 2, 2006"
+    defaultTheme: auto # dark, light
+    disableThemeToggle: true
+
+    ShowReadingTime: true
+    ShowShareButtons: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: false
+    disableSpecial1stPost: false
+    disableScrollToTop: false
+    comments: false
+    hidemeta: false
+    hideSummary: false
+    showtoc: false
+    tocopen: false
+
+    label:
+        text: " "
+        icon: 
+        iconHeight: 35
+
+    # profile-mode
+    profileMode:
+        enabled: true # needs to be explicitly set
+        title: Dr. Timm Heuss
+        subtitle: "Problem Solver, Software Craftsman, Computer Science Nerd"
+ 
+    analytics:
+        google:
+            SiteVerificationTag: ""
+        bing:
+            SiteVerificationTag: ""
+        yandex:
+            SiteVerificationTag: ""
+
+menu:
+    main:
+        - identifier: github
+          name: GitHub
+          url: https://github.com/heussd/
+          weight: 10
+        - identifier: xing
+          name: XING
+          url: https://www.xing.com/profile/Timm_Heuss
+          weight: 20
+        - identifier: linkedin
+          name: LinkedIn
+          url: https://www.linkedin.com/in/heuss/
+          weight: 30
+
+
