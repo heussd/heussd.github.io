@@ -38,9 +38,18 @@ params:
         icon: 
         iconHeight: 35
 
-    # profile-mode
+    author: Timm Heuss
+    description: "Problem Solver, Software Craftsman, Computer Science Nerd"
+
+    schema:
+        publisherType: Person
+        sameAs:
+            - https://github.com/heussd/
+            - https://www.linkedin.com/in/heuss/
+            - https://www.xing.com/profile/Timm_Heuss/
+
     profileMode:
-        enabled: true # needs to be explicitly set
+        enabled: true
         title: Dr. Timm Heuss
         subtitle: "Problem Solver, Software Craftsman, Computer Science Nerd"
  
